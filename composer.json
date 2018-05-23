@@ -11,6 +11,11 @@
     "require": {
         "php": ">=5.6.4"
     },
+    "autoload": {
+        "psr-4": {
+            "Vivekpandey\\Timezones\\": "src"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
