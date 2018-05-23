@@ -3,6 +3,7 @@
     "description": "Show timezones",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [{
         "name": "Vivek Pandey",
         "email": "vivekmca2012@gmail.com"
