@@ -1,0 +1,19 @@
+{
+    "name": "vivekpandey/timezones",
+    "description": "Show timezones",
+    "type": "library",
+    "license": "apache-2.0",
+    "authors": [{
+        "name": "Vivek Pandey",
+        "email": "vivek@think201.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vivekpandey\\Timezones\\TimezonesServiceProvider"
+            ]
+        }
+    }
+}
