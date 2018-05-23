@@ -1,10 +1,10 @@
 <?php
 namespace Vivekpandey\Timezones;
 
-use App\Http\Controllers\Controller;
 use Carbon\Carbon;
+use Illuminate\Routing\Controller as BaseController;
 
-class TimezonesController extends Controller {
+class TimezonesController extends BaseController {
 
 	public function index($timezone = NULL) {
 		$current_time = ($timezone)
